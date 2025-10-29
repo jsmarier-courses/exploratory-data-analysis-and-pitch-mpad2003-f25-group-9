@@ -23,8 +23,15 @@ Did you notice how to create a hyperlink? In Markdown, we put the clickable text
 And to create an unordered list, we simply put a star (`*`) before each item.
 
 ## 1. Introduction
+For this assignment, we will analyze a City of Ottawa dataset, collected by Statistics Canada, that provides detailed demographic information about Ottawa’s population, broken down by ward. This dataset shows how population, age, and trends vary across different areas of the city. This dataset includes a handful of different things, like the number of people who speak a certain language, methods of commuting to work, the number of specific age demographics, and average family size. 
 
-Insert text here.
+In this assignment, we will be getting the data, understanding the data, cleaning the data, analyzing the data, and lastly, conducting a potential story with the data.
+
+Open Ottawa Dataset Source:
+https://open.ottawa.ca/datasets/ottawa::2021-long-form-census-ward-data/explore
+
+Original Dataset Source CSV:
+https://raw.githubusercontent.com/jsmarier/files-for-course-assignments/refs/heads/main/2021_Long_Form_Census_-_Ward_Data.csv
 
 ## 2. Getting Data
 
