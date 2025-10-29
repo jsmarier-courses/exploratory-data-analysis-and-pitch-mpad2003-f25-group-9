@@ -29,8 +29,7 @@ In this assignment, we will be getting the data, understanding the data, cleanin
 
 [Open Ottawa Dataset Source](https://open.ottawa.ca/datasets/ottawa::2021-long-form-census-ward-data/explore)
 
-Original Dataset Source CSV:
-https://raw.githubusercontent.com/jsmarier/files-for-course-assignments/refs/heads/main/2021_Long_Form_Census_-_Ward_Data.csv
+[Original Dataset Source CSV](https://raw.githubusercontent.com/jsmarier/files-for-course-assignments/refs/heads/main/2021_Long_Form_Census_-_Ward_Data.csv)
 
 ## 2. Getting Data
 
