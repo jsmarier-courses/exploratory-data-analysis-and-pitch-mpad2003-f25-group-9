@@ -27,8 +27,7 @@ For this assignment, we will analyze a City of Ottawa dataset, collected by Stat
 
 In this assignment, we will be getting the data, understanding the data, cleaning the data, analyzing the data, and lastly, conducting a potential story with the data.
 
-Open Ottawa Dataset Source:
-https://open.ottawa.ca/datasets/ottawa::2021-long-form-census-ward-data/explore
+[Open Ottawa Dataset Source](https://open.ottawa.ca/datasets/ottawa::2021-long-form-census-ward-data/explore)
 
 Original Dataset Source CSV:
 https://raw.githubusercontent.com/jsmarier/files-for-course-assignments/refs/heads/main/2021_Long_Form_Census_-_Ward_Data.csv
