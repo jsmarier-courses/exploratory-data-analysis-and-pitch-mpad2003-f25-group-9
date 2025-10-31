@@ -32,6 +32,26 @@ In this assignment, we will be getting the data, understanding the data, cleanin
 [Original Dataset Source CSV](https://raw.githubusercontent.com/jsmarier/files-for-course-assignments/refs/heads/main/2021_Long_Form_Census_-_Ward_Data.csv)
 
 ## 2. Getting Data
+<b>How we got out data</b>
+To import our data from the CSV file to Google Sheets, we followed these steps: first, downloaded our CSV, then opened a new Google Sheets, then chose Upload and selected our CSV file, and picked where we wanted it to go (onto a new sheet), then lastly clicked Import data to load the CSV file onto the new sheet.
+
+<i>Here is an image of the spread sheet once imported</i>
+
+<img src="Screenshot 2025-10-31 at 12.03.56 PM.png" alt="Image of spreat sheet">
+
+
+[Public Link to Google Sheet](https://docs.google.com/spreadsheets/d/1mI6C_dRIXe7h5A-3btVx26ezhnZnFNimz0qGm6IQro4/edit?usp=sharing)
+
+<b>General Observations</b>
+When taking a first look at the data, it looks organized and simple to read. There are 2603 rows and 2 columns. The data looks fairly clean as numbers are aligned consistently, with no obvious typos, and each cell has a numeric or percentage value. Some cells contain percentages while others contain counts, so there are mixed data types.
+<b>Specific Observations</b>
+When looking at the data, a few observations can be made. The first column, called “Characteristics,” lists different population groups like “0 to 14 years,” “15 to 64 years,” and “65 years and over.” These are nominal categorical variables because they describe categories rather than numbers. The second column, “City of Ottawa,” shows the total population for each age group using numerical data. These numbers are continuous variables and generally get smaller as the age groups get older. The other columns, such as “Orléans East-Cumberland” and “Barrhaven West,” also show numeric data for each ward, and the numbers change depending on how big or densely populated each ward is.
+Another observation is that when looking at the data tracking how many people speak a certain language or where, it is evident that this data takes up a majority of the spreadsheet. From rows 427 to 1928, it is a massive collection and combination of global races and languages, and tracking where they are in Ottawa.
+
+<b>The questions that were sparked when looking at this data include the following:</b>
+What does the area you live in near Ottawa say about you as an individual?
+How can the city use this information to improve or support areas?
+
 
 Use two hashtag symbols (`##`) to create a level 2 heading like this one.
 
