@@ -77,7 +77,11 @@ This also shows how to create an ordered list. Simply put `1.` before each item.
 
 Use three hashtag symbols (`###`) to create a level 3 heading like this one. Please follow this template when it comes to level 1 and level 2 headings. However, you can use level 3 headings as you see fit.
 
-Insert text here.
+For this VIMO analysis, we followed the methods talked about in the Statistics Canada video on data accuracy, looking at valid, invalid, missing and outlier values. We then focused on three specific sections of the dataset: the population by age group in each area, income levels, and the average household population. Each of these sections appears valid, as the data uses appropriate numeric values, including decimals where necessary. For example, the column showing how many people earn a certain income correctly uses whole numbers to represent counts.
+When checking the integrity of the data, we looked for consistent headers, duplicated rows or columns, and whether the names of places matched the official list. Nothing seemed inconsistent in the sections we analyzed, the headers were clear, and the data remained consistent across the columns.
+In terms of missingness, there were no blank or missing cells. Finally, while checking for outliers, nothing appeared unusual. For example, in the row showing the average household size, all values stayed within a range of 1.6 to 3.1 residents, which seems realistic for household data in Ottawa.
+Overall, the dataset appears to be accurate, consistent, and reliable. Each section we examined followed proper data formatting, with no missing information or major inconsistencies. The values also stayed within realistic ranges, suggesting that the data was collected and organized carefully. Because of this, the dataset can be confidently used for further analysis, such as comparing age demographics, income levels, or household sizes across different areas in Ottawa.
+
 
 Support your claims by citing relevant sources. Please follow [APA guidelines for in-text citations](https://apastyle.apa.org/style-grammar-guidelines/citations).
 
