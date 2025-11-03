@@ -87,10 +87,13 @@ As Cairo (2016) argues, a data visualization should be truthful...
 
 ### 3.2. Cleaning Data
 
-To clean the data set, we first used the built-in Google Sheets data cleaning suggestion tool, which trimmed extra white space throughout all cells. We used the same tool to look at unique variables to check whether something was mispelled, capitalized differently, or repeated inaccurately. Then, we removed rows that were not relevant to the rest of the data set, such as extra intervals of different age groups and repeated rows of data of certain variables in the "Characteristics" column. One example of this was a row with "Education" as a characteristic, and a row right underneath reading "13. Education" with the same numbers in each column. Next, we inserted the trimmed dataset into OpenRefine to find more repeated "Characteristics" through clustering, and then deleted said characteristics within the Google Sheet. We then separated the numbers from the front of certain characteristics by using the SPLIT function to separate the values at the "." that followed the number and dragged the corner of that cell to apply the function to the rest of the cells with the same format. We trimmed the remaining whitespace by selecting the column and using the "Trim Whitespace" option offered under the "Data" section in Google Sheets. After copying and pasting the function result into the "Characteristics" column, we deleted the extra rows needed to write the function to make it appear cleaner overall. Lastly, we changed the numerical values to their respective "Numbers", which was the case for most of the data, or "Percentages" in the "Format" option.
+To clean the data set, we first used the built-in Google Sheets data cleaning suggestion tool, which trimmed extra white space throughout all cells. We used the same tool to look at unique variables to check whether something was mispelled, capitalized differently, or repeated inaccurately. Then, we removed rows that were not relevant to the rest of the data set, such as extra intervals of different age groups and repeated rows of data of certain variables in the "Characteristics" column. One example of this was a row with "Education" as a characteristic, and a row right underneath reading "13. Education" with the same data in each column. Next, we inserted the trimmed dataset into OpenRefine to find more repeated "Characteristics" through clustering, and then deleted said characteristics within the Google Sheet. We then separated the numbers from the front of certain characteristics by using the SPLIT function, after having created two rows to the left of the first row to account for the spillover, which separated the values at the "." following the number. To apply the function to the rest of the cells, we dragged the corner of that cell. We trimmed the remaining whitespace after having used the function by selecting the column and using the "Trim Whitespace" option offered under the "Data" section in Google Sheets. After copying and pasting the function result into the "Characteristics" column, we deleted the extra rows needed to write the function to make it appear cleaner overall. Lastly, we changed the numerical values to their respective "Numbers", which was the case for most of the data, or "Percentages" in the "Format" option.
 
-Function: ```markdown
+<b>Function: <b>```markdown
             =SPLIT(C1993, ".")
+
+![](cleaned-data-screen-capture)<br>
+*Figure 2: The first 28 rows of the cleaned data set.*
 
 ### 3.3. Exploratory Data Analysis (EDA)
 
@@ -99,12 +102,12 @@ Insert text here.
 **This section should include a screen capture of your pivot table, like so:**
 
 ![](pivot-table-screen-capture.png)<br>
-*Figure 2: This pivot table shows...*
+*Figure 3: This pivot table shows...*
 
 **This section should also include a screen capture of your exploratory chart, like so:**
 
 ![](chart-screen-capture.png)<br>
-*Figure 3: This exploratory chart shows...*
+*Figure 4: This exploratory chart shows...*
 
 ## 4. Potential Story
 
