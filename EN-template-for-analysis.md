@@ -101,16 +101,20 @@ To clean the data set, we first used the built-in Google Sheets data cleaning su
 
 ### 3.3. Exploratory Data Analysis (EDA)
 
-Insert text here.
+I chose to look at income levels because they show how people in Ottawa live and how equal the city is. The data helps us see differences between rich and poor areas.
+
+The number that stands out the most is the $100,000–$124,999 income range, which has the largest group of people. This shows that many residents belong to the middle-income group, likely because Ottawa has many government and office jobs.
+
+From this, I learned that most people earn around the middle range, but there are still smaller groups with very low or very high income. The next step could be to compare income with other factors, such as housing or education, to understand life in different parts of the city.
 
 **This section should include a screen capture of your pivot table, like so:**
 
-![](pivot-table-screen-capture.png)<br>
+![](pivot_table_screenshot.png)<br>
 *Figure 3: This pivot table shows...*
 
 **This section should also include a screen capture of your exploratory chart, like so:**
 
-![](chart-screen-capture.png)<br>
+![](chart_screenshot.png)<br>
 *Figure 4: This exploratory chart shows...*
 
 ## 4. Potential Story
