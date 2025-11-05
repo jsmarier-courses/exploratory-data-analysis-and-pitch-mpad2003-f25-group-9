@@ -96,7 +96,7 @@ To clean the data set, we first used the built-in Google Sheets data cleaning su
 <b>Function: <b>```markdown
             =SPLIT(C1993, ".")
 
-![](cleaned-data-screen-capture)<br>
+![](cleaned-data-screen-capture.png)<br>
 *Figure 2: The first 28 rows of the cleaned data set.*
 
 ### 3.3. Exploratory Data Analysis (EDA)
