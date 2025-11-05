@@ -91,7 +91,13 @@ As Cairo (2016) argues, a data visualization should be truthful...
 
 ### 3.2. Cleaning Data
 
-To clean the data set, we first used the built-in Google Sheets data cleaning suggestion tool, which trimmed extra white space throughout all cells. We used the same tool to look at unique variables to check whether something was mispelled, capitalized differently, or repeated inaccurately. Then, we removed rows that were not relevant to the rest of the data set, such as extra intervals of different age groups and repeated rows of data of certain variables in the "Characteristics" column. One example of this was a row with "Education" as a characteristic, and a row right underneath reading "13. Education" with the same data in each column. Next, we inserted the trimmed dataset into OpenRefine to find more repeated "Characteristics" through clustering, and then deleted said characteristics within the Google Sheet. We then separated the numbers from the front of certain characteristics by using the SPLIT function, after having created two rows to the left of the first row to account for the spillover, which separated the values at the "." following the number. To apply the function to the rest of the cells, we dragged the corner of that cell. We trimmed the remaining whitespace after having used the function by selecting the column and using the "Trim Whitespace" option offered under the "Data" section in Google Sheets. After copying and pasting the function result into the "Characteristics" column, we deleted the extra rows needed to write the function to make it appear cleaner overall. Lastly, we changed the numerical values to their respective "Numbers", which was the case for most of the data, or "Percentages" in the "Format" option.
+To clean the data set, we first used the built-in Google Sheets data cleaning suggestion tool, which trimmed extra white space throughout all cells. We used the same tool to look at unique variables to check whether something was mispelled, capitalized differently, or repeated inaccurately.
+
+Then, we removed rows that were not relevant to the rest of the data set, such as extra intervals of different age groups and repeated rows of data of certain variables in the "Characteristics" column. One example of this was a row with "Education" as a characteristic, and a row right underneath reading "13. Education" with the same data in each column. 
+
+Next, we inserted the trimmed dataset into OpenRefine to find more repeated "Characteristics" through clustering, and then deleted said characteristics within the Google Sheet. We then separated the numbers from the front of certain characteristics by using the SPLIT function, after having created two rows to the left of the first row to account for the spillover, which separated the values at the "." following the number. To apply the function to the rest of the cells, we dragged the corner of that cell. We trimmed the remaining whitespace after having used the function by selecting the column and using the "Trim Whitespace" option offered under the "Data" section in Google Sheets. After copying and pasting the function result into the "Characteristics" column, we deleted the extra rows needed to write the function to make it appear cleaner overall. 
+
+Lastly, we changed the numerical values to their respective "Numbers", which was the case for most of the data, or "Percentages" in the "Format" option.
 
 <b>Function: <b>```markdown
             =SPLIT(C1993, ".")
@@ -101,25 +107,33 @@ To clean the data set, we first used the built-in Google Sheets data cleaning su
 
 ### 3.3. Exploratory Data Analysis (EDA)
 
-I chose to look at income levels because they show how people in Ottawa live and how equal the city is. The data helps us see differences between rich and poor areas.
+We chose to look at income levels because they show how people in Ottawa live and how equal the city is. The data helps us see differences between rich and poor areas.
 
-The number that stands out the most is the $100,000–$124,999 income range, which has the largest group of people. This shows that many residents belong to the middle-income group, likely because Ottawa has many government and office jobs.
+We created the pivot table with the average level of income in Canadian Dollars in 2019 and in 2020 including wards 1-10. What stands out is the difference in average income between 2019 and 2020. Despite the pandemic, people in Ottawa were generally making more money in 2020 as compared to 2019. 
 
-From this, I learned that most people earn around the middle range, but there are still smaller groups with very low or very high income. The next step could be to compare income with other factors, such as housing or education, to understand life in different parts of the city.
+The highest levels of income occur in wards 4, 5, and 6, making the data in the bar chart appear almost in the shape of a normal distribution.
+
+From this, we learned that most people earn around the middle range, but there are still smaller groups with very low or very high income. We also learned that the pandemic did not affect people in Ottawa's income as much as we had expected, and therefpre the next step could be to compare income with other factors, such as housing or education, to understand the aspects life in different parts of the city.
 
 **This section should include a screen capture of your pivot table, like so:**
 
-![](pivot_table_screenshot.png)<br>
-*Figure 3: This pivot table shows...*
+![](pivot-table-screen-capture.png)<br>
+*Figure 3: A pivot table representing how many people in different areas of Ottawa have the corresponding average level of income.*
 
 **This section should also include a screen capture of your exploratory chart, like so:**
 
-![](chart_screenshot.png)<br>
-*Figure 4: This exploratory chart shows...*
+![](chart-screen-capture.png)<br>
+*Figure 4: A bar graph of the different levels of income in 2019 and 2020 across Ottawa.*
 
 ## 4. Potential Story
 
-Insert text here.
+While the initial intention for a potential story was to discover the differences in income in 2019 versus 2020, this yielded little significant results, therefore it may be more beneficial to look at other factors for a potential story, such as location, given by the different wards. 
+
+When comparing simply wards 1-10, it is clear that wards 7 onward make significantly less money, $10,000 less anually to be exact, than the other wards. This could be looked further into and compared and contrasted with other factors such as the types of jobs available, the cost of living, or number of residents to a household in these areas. It could be that there are less people of working age in a particular ward, meaning the lower population of individuals *to* make income causes the entire ward to have a lower *average* income overall. 
+
+Another example, if we were to look at types of jobs available, may show more government jobs closer to the centre of the city, which means replacing one of the wards in similar areas, such as 4, 5, and 6, with ward 17, the city centre, would give us an indication of whether or not the significant difference of the annual income could relate to job availability. Additionally, due to the different kinds of jobs available, the cost of living closer to the city may be increased, therefore people generally have to have a higher income in order to be living there.
+
+Overall, there are many possibilities of stories within the chosen data from the greater data set, including but not limited to what factors, such as job availability or cost of living, influence income, and whether it be due to geographical location or number of eligible working residents in a household.
 
 ## 5. Conclusion
 
