@@ -22,7 +22,6 @@ To import our data from the CSV file to Google Sheets, we followed these steps: 
 
 <img src="Screenshot 2025-10-31 at 12.03.56 PM.png" alt="Image of spreat sheet">
 
-
 [Public Link to Google Sheet](https://docs.google.com/spreadsheets/d/1mI6C_dRIXe7h5A-3btVx26ezhnZnFNimz0qGm6IQro4/edit?usp=sharing)
 
 <b>General Observations</b>
@@ -35,17 +34,9 @@ Another observation is that when looking at the data tracking how many people sp
 What does the area you live in near Ottawa say about you as an individual?
 How can the city use this information to improve or support areas?
 
-<<<<<<< HEAD
-
-Use two hashtag symbols (`##`) to create a level 2 heading like this one.
-
-To include a screen capture, use the sample code below. Your images should be saved in the same folder as your `.md` file.
-
 ![](import-screen-capture.png)<br>
 *Figure 1: The "Import file" prompt on Google Sheets.*
 
-=======
->>>>>>> 8dec4b834b462a01c05546cf57198fdcb51f2fdb
 ## 3. Understanding Data
 
 ### 3.1. VIMO Analysis
@@ -115,10 +106,6 @@ Overall, for similar assignments in the future better communication and collabor
 
 ## 6. References
 
-<<<<<<< HEAD
 Marier, Jean-Sébastien. (2021, October 9). *Cleaning Data in Google Sheets.* [Video]. YouTube. ![]https://www.youtube.com/watch?v=U4yigiawIEU.
 
 GoogleRefine. (2011, July 19). *Google Refine 2.0 - Introduction (1 of 3) (video version 2).* [Video]. YouTube. ![]https://www.youtube.com/watch?v=B70J_H_zAWM.
-=======
-
->>>>>>> 8dec4b834b462a01c05546cf57198fdcb51f2fdb
