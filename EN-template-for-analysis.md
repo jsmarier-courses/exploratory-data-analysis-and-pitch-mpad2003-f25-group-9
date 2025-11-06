@@ -32,7 +32,7 @@ In this assignment, we will be getting the data, understanding the data, cleanin
 [Original Dataset Source CSV](https://raw.githubusercontent.com/jsmarier/files-for-course-assignments/refs/heads/main/2021_Long_Form_Census_-_Ward_Data.csv)
 
 ## 2. Getting Data
-<b>How we got out data</b>
+<b>How we got our data</b>
 To import our data from the CSV file to Google Sheets, we followed these steps: first, downloaded our CSV, then opened a new Google Sheets, then chose Upload and selected our CSV file, and picked where we wanted it to go (onto a new sheet), then lastly clicked Import data to load the CSV file onto the new sheet.
 
 <i>Here is an image of the spread sheet once imported</i>
