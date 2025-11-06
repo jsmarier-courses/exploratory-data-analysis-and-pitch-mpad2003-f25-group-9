@@ -15,7 +15,7 @@ In this assignment, we will be getting the data, understanding the data, cleanin
 [Original Dataset Source CSV](https://raw.githubusercontent.com/jsmarier/files-for-course-assignments/refs/heads/main/2021_Long_Form_Census_-_Ward_Data.csv)
 
 ## 2. Getting Data
-<b>How we got out data</b>
+<b>How we got our data</b>
 To import our data from the CSV file to Google Sheets, we followed these steps: first, downloaded our CSV, then opened a new Google Sheets, then chose Upload and selected our CSV file, and picked where we wanted it to go (onto a new sheet), then lastly clicked Import data to load the CSV file onto the new sheet.
 
 <i>Here is an image of the spread sheet once imported</i>
@@ -35,6 +35,7 @@ Another observation is that when looking at the data tracking how many people sp
 What does the area you live in near Ottawa say about you as an individual?
 How can the city use this information to improve or support areas?
 
+<<<<<<< HEAD
 
 Use two hashtag symbols (`##`) to create a level 2 heading like this one.
 
@@ -43,6 +44,8 @@ To include a screen capture, use the sample code below. Your images should be sa
 ![](import-screen-capture.png)<br>
 *Figure 1: The "Import file" prompt on Google Sheets.*
 
+=======
+>>>>>>> 8dec4b834b462a01c05546cf57198fdcb51f2fdb
 ## 3. Understanding Data
 
 ### 3.1. VIMO Analysis
@@ -112,6 +115,10 @@ Overall, for similar assignments in the future better communication and collabor
 
 ## 6. References
 
+<<<<<<< HEAD
 Marier, Jean-Sébastien. (2021, October 9). *Cleaning Data in Google Sheets.* [Video]. YouTube. ![]https://www.youtube.com/watch?v=U4yigiawIEU.
 
 GoogleRefine. (2011, July 19). *Google Refine 2.0 - Introduction (1 of 3) (video version 2).* [Video]. YouTube. ![]https://www.youtube.com/watch?v=B70J_H_zAWM.
+=======
+
+>>>>>>> 8dec4b834b462a01c05546cf57198fdcb51f2fdb
