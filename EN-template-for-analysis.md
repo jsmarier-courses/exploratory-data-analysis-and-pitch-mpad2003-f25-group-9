@@ -106,6 +106,6 @@ Overall, for similar assignments in the future better communication and collabor
 
 ## 6. References
 
-Marier, Jean-Sébastien. (2021, October 9). *Cleaning Data in Google Sheets.* [Video]. YouTube. ![]https://www.youtube.com/watch?v=U4yigiawIEU.
+Marier, Jean-Sébastien. (2021, October 9). *Cleaning Data in Google Sheets.* [Video]. YouTube. !https://www.youtube.com/watch?v=U4yigiawIEU.
 
-GoogleRefine. (2011, July 19). *Google Refine 2.0 - Introduction (1 of 3) (video version 2).* [Video]. YouTube. ![]https://www.youtube.com/watch?v=B70J_H_zAWM.
+GoogleRefine. (2011, July 19). *Google Refine 2.0 - Introduction (1 of 3) (video version 2).* [Video]. YouTube. !https://www.youtube.com/watch?v=B70J_H_zAWM.
