@@ -1,6 +1,6 @@
 **November 6, 2025**<br>
 **MPAD2003 Introductory Data Storytelling**<br>
-**Kenzie Mulligan, Jessica Lock, Ruihua **<br>
+**Kenzie Mulligan, Jessica Lock, Ruihua Liang**<br>
 **Presented to Jean-Sébastien Marier**<br>
 
 # Exploratory Data Analysis (EDA) & Pitch
