@@ -34,14 +34,9 @@ Another observation is that when looking at the data tracking how many people sp
 What does the area you live in near Ottawa say about you as an individual?
 How can the city use this information to improve or support areas?
 
-![](import-screen-capture.png)<br>
-*Figure 1: The "Import file" prompt on Google Sheets.*
-
 ## 3. Understanding Data
 
 ### 3.1. VIMO Analysis
-
-Use three hashtag symbols (`###`) to create a level 3 heading like this one. Please follow this template when it comes to level 1 and level 2 headings. However, you can use level 3 headings as you see fit.
 
 For this VIMO analysis, we followed the methods talked about in the Statistics Canada video on data accuracy, looking at valid, invalid, missing and outlier values. We then focused on three specific sections of the dataset: the population by age group in each area, income levels, and the average household population. Each of these sections appears valid, as the data uses appropriate numeric values, including decimals where necessary. For example, the column showing how many people earn a certain income correctly uses whole numbers to represent counts.
 When checking the integrity of the data, we looked for consistent headers, duplicated rows or columns, and whether the names of places matched the official list. Nothing seemed inconsistent in the sections we analyzed, the headers were clear, and the data remained consistent across the columns.
@@ -58,7 +53,7 @@ Next, we inserted the trimmed dataset into OpenRefine to find more repeated "Cha
 
 Lastly, we changed the numerical values to their respective "Numbers", which was the case for most of the data, or "Percentages" in the "Format" option.
 
-<b>Function: <b>
+<b>Function: </b>
 `=SPLIT(C1993, ".")`
 
 ![](cleaned-data-screen-capture.png)<br>
